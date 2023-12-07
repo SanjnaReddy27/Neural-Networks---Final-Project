@@ -7,8 +7,8 @@ from tkinter.filedialog import askopenfilename
 import cv2
 import random
 import numpy as np
-#from keras.utils.np_utils import to_categorical
-from tensorflow.keras.utils import to_categorical
+#from keras.utils.np_utils import to_categorical - not working
+from tensorflow.keras.utils import to_categorical #introduced new line to overcome the error
 from keras.layers import  MaxPooling2D
 from keras.layers import Dense, Dropout, Activation, Flatten
 from keras.layers import Convolution2D
